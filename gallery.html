@@ -60,10 +60,31 @@
         margin-top: 50px;
         text-align: center;
       }
-      .video-section iframe {
+      .video-section iframe,
+      .video-section video {
         max-width: 100%;
         border: 1px solid #ddd;
         border-radius: 8px;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .container {
+          width: 90%;
+          padding: 15px;
+        }
+        .carousel {
+          max-width: 100%;
+        }
+        .carousel-buttons button {
+          padding: 8px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .carousel-buttons button {
+          padding: 6px;
+        }
       }
     </style>
   </head>
@@ -87,8 +108,7 @@
       <!-- Video Section -->
       <div class="video-section">
         <h2>Project Demo Videos</h2>
-        <video width = "600" 
-        controls = "controls"  preload = "preload" src="images/vid.mp4"></video>
+        <video width="600" controls="controls" preload="preload" src="images/vid.mp4"></video>
       </div>
     </div>
 
