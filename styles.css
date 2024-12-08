@@ -34,6 +34,10 @@ section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
+span{
+    color: var(--main-color);
+}
 header{
     position: fixed;
     top: 0;
@@ -106,7 +110,7 @@ h3 > span > span{
     25%{transform: translateY(-100%);}
     50%{transform: translateY(-200%);}
     75%{transform: translateY(-300%);}
-    100%{transform: translateY(-400%);}
+   100%{transform: translateY(-400%);}
 }
 
 .home-content h3:nth-of-type(2){
@@ -433,7 +437,7 @@ h3 > span > span{
 
 @media (max-width: 991px) {
     header {
-        padding: 2rem 3%;
+        padding: 2rem ;
     }
 
     section {
