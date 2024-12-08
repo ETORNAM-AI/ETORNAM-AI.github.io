@@ -38,6 +38,9 @@ section{
 span{
     color: var(--main-color);
 }
+span{
+    color: var(--main-color);
+}
 header{
     position: fixed;
     top: 0;
